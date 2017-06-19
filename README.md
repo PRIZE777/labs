@@ -3,7 +3,7 @@ Compiler
 
 A Symfony project created on May 1, 2017, 3:44 pm.
 
-Source: Compiler/src/CompilerBundle/
+Source: src/CompilerBundle/
 
 <h2>Общее писание:</h2>
 
