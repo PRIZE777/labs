@@ -1,0 +1,28 @@
+compiler_homepage:
+    path:     /
+    defaults: { _controller: CompilerBundle:Main:index }
+
+compiler_lexer:
+    path:   /lexer
+    defaults: {_controller: CompilerBundle:Main:lexer }
+
+
+compiler_lexer_ajax:
+    path: /lexer_get_data
+    defaults: {_controller: CompilerBundle:Ajax:lexerGetData }
+    
+compiler_parser:
+    path: /parser
+    defaults: {_controller: CompilerBundle:Main:parser}
+    
+compiler_parser_ajax:
+    path: /parser_get_data
+    defaults: {_controller: CompilerBundle:Ajax:parserGetData }
+    
+compiler_compiler:
+    path: /compier
+    defaults: {_controller: CompilerBundle:Main:compiler}
+
+compiler_compiler_ajax:
+     path: /compiler_get_data
+     defaults: {_controller: CompilerBundle:Ajax:compilerGetData}
